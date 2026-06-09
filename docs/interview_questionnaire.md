@@ -1,0 +1,41 @@
+# Interview questionnaire
+
+This file documents the fisher interview questions used in the study.
+
+| Sr no. | Section | Question | Response | Data type | Justification | Analysis type |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Fishing experience | Which harbour(s) are you operating from? | Open ended | Categorical | Objective 1 | Descriptive stats (frequency, proportions) |
+| 2 | Fishing experience | What is your main occupation? [only one option allowed] | Fisher; Skipper; Other; Don’t want to answer | Categorical | Objective 2 | Frequency analysis, cross-tab with spatial variables |
+| 3 | Fishing experience | What is your fishing experience? | In years | Numerical | Objective 2&3 | Descriptive stats (mean, median, std), correlation |
+| 4 | Vessel characteristics | What is the length (approximately) of the fishing vessel? | Length in feet | Numerical | Objective 1&2 | Descriptive stats, regression variable |
+| 5 | Vessel characteristics | Is your boat registered? If yes, ask the next question | Yes/No | Categorical | Objective 2&3 | Frequency, cross-tab with effort patterns |
+| 6 | Vessel characteristics | What are your main gear types? Indicate 1 and 2 for primary and secondary gear type | Long-line; Nets; Other (please specify) | Categorical | Objective 2&3 | Frequency, cross-tab with spatial distribution |
+| 7 | Vessel characteristics | Which type of fishery licence does the vessel have? | High seas operation licence; Local water operation; Don’t want to answer | Categorical | Objective 2&3 | Descriptive stats, correlation with spatial extent |
+| 8 | Vessel characteristics | What percentage of time do you fish in the High Seas? | Percentage | Continuous | Objective 1&3 | Descriptive stats, correlation with drivers |
+| 9 | Vessel characteristics | What percentage of time do you fish in local waters? | Percentage | Continuous | Objective 1 | Descriptive stats, correlation with drivers |
+| 10 | Vessel characteristics | What percentage of time do you fish in other countries' waters? | Percentage | Continuous | Objective 1&3 | Descriptive stats, correlation, potential regression variable |
+| 11 | Vessel characteristics | Please select all technologies that are installed | VMS; AIS; Odaku; Other (specify); Don’t want to answer, with response options: Yes; No; Don’t know what it is | Categorical (Multiple Selection) | Objective 2&3 | Frequency analysis, Technology Index question |
+| 12 | Vessel characteristics | How often is AIS transmitting on your fishing trips? | On every trip (100%); Occasionally (75%); Sometimes (50%); Rarely (25%); Never (0%) | Categorical (ordinal) | Objective 2&3 | Frequency analysis, factor in Technology Index |
+| 13 | Vessel characteristics | How often is VMS transmitting on your fishing trips? | On every trip (100%); Occasionally (75%); Sometimes (50%); Rarely (25%); Never (0%) | Categorical (ordinal) | Objective 2&3 | Descriptive stats, correlation with spatial metrics |
+| 14 | Socio-economic driving factors | What are your average costs per fishing trip? | Amount in ₹ | Continuous | Objective 2 | Descriptive stats, input for net benefit |
+| 15 | Socio-economic driving factors | What proportion of your total fishing costs is spent on different cost categories? | Fuel; Maintenance; Food; Ice; Crew wages; Others (specify), recorded as percentages | Numerical | Objective 2 | Net-benefit analysis: how changes in fuel cost impact net benefits and fishing decisions |
+| 16 | Socio-economic driving factors | Do you receive fishing subsidies? | Yes/No | Binary | Objective 2 | Frequency, correlation with net benefit |
+| 17 | Socio-economic driving factors | Please specify what are the main subsidies you receive? | Fuel; Wages; Other (please specify), with amount and quantity | Categorical/Numerical | Objective 2 | Descriptive stats, factor in net benefit |
+| 18 | Socio-economic driving factors | What proportion of fishing costs do these subsidies cover? | Percentage | Numerical | Objective 2 | Descriptive stats, scenario analysis |
+| 19 | Socio-economic driving factors | What is the system of profit distribution in your boat? | Owner share (%); Crew share (%); Captain share (%) | Numerical | Objective 2 | Descriptive stats, correlation with spatial patterns |
+| 20 | Socio-economic driving factors | What are the average earnings of the vessel per trip? | Amount in ₹ | Continuous | Objective 2 | Descriptive stats, net benefit calculation |
+| 21 | Spatial management and policy | Are you aware of regulations prohibiting fishing in foreign waters? | Yes/No | Binary | Objective 2&3 | Frequency, factor in compliance analysis |
+| 22 | Spatial management and policy | How much do you agree that regulations prohibiting fishing in other countries' waters impact your choice of fishing location? | Strongly Disagree; Disagree; Neither Agree nor Disagree; Agree; Strongly Agree; I Don’t Know | Categorical (ordinal) | Objective 2&3 | Score calculation, correlation with spatial patterns |
+| 23 | Spatial management and policy | Currently, how likely do you think it is to get caught if you cross into another country’s waters? | Very likely; Likely; Unlikely; Very unlikely; I don't know | Categorical (ordinal) | Objective 2&3 | Score, correlation with foreign waters effort |
+| 24 | Spatial management and policy | What is the likelihood of facing negative consequences for fishing illegally in other countries' waters? | Very likely; Likely; Unlikely; Very unlikely; I don't know | Categorical (ordinal) | Objective 2&3 | Score, correlation with illegal fishing behaviour |
+| 25 | Spatial management and policy | What percentage of your friends fish in foreign waters? | Most of them (75–100%); About half of them (50–75%); Some of them (25–50%); A few of them (1–25%); None of them (0%) | Categorical | Objective 2&3 | Frequency, correlation with foreign waters fishing |
+| 26 | Spatial management and policy | How has the likelihood of negative consequences changed in the last 5 years? | Strongly Increased; Slightly increased; Stayed the same; Slightly decreased; Strongly decreased | Categorical | Objective 2&3 | Descriptive narrative context |
+| 27 | Spatial management and policy | How has the likelihood of negative consequences changed during COVID-19? | Strongly Increased; Slightly increased; Stayed the same; Slightly decreased; Strongly decreased | Categorical | COVID-19 drivers | Drivers influential during COVID-19 period |
+| 28 | Spatial management and policy | If it has changed, why? | Open ended | Qualitative | Objective 2&3 | Qualitative analysis, narrative support |
+| 29 | Spatial management and policy | What percentage of people you know have been caught whilst illegally fishing in foreign waters? | Percentage | Continuous | Objective 2&3 | Descriptive stats, correlation with compliance/effort |
+| 30 | Target species and bycatch | What percentage of your total catch is from the following species groups? | Sharks/rays; Cephalopods; Large pelagics; Coral reef species; Crustaceans, recorded as percentages | Numerical | Objective 2&3 | Descriptive stats, Target Species Index calculation |
+| 31 | Target species and bycatch | Have these proportions changed over the last 5 years, if yes, why? | Open ended | Qualitative | Objective 2&3 | Thematic coding |
+| 32 | Target species and bycatch | Have these proportions changed during COVID-19, if yes, why? | Open ended | Qualitative | COVID-19 catch changes | Changes in catch proportion during COVID-19 |
+| 33 | Target species and bycatch | Do you target the following species groups? | Sharks: Yes/No/Sometimes; Rays: Yes/No/Sometimes | Categorical | Objective 2&3 | Frequency, factor in Target Species Contribution Index |
+| 34 | Target species and bycatch | What is the proportion of bycatch on average in your fishing trips? | On every trip (100%); Occasionally (50–75%); Sometimes (25–50%); Rarely (0–25%); Never (0%) | Categorical (ordinal) | Objective 2&3 | Frequency analysis |
+| 35 | Technological | To what extent do you communicate amongst fishers to navigate to the fishing location? | On every trip (100%); Occasionally (75%); Sometimes (50%); Rarely (25%); Never (0%) | Categorical (ordinal) | Objective 2&3 | Frequency analysis, correlation with spatial behaviour |
