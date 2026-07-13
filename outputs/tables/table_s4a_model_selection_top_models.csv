@@ -1,9 +1,0 @@
-﻿Rank,Model_ID,Model_Formula,df,logLik,AICc,Delta_AICc,Weight
-1,326,mean_distance ~ AIS + cost.per.trip_std + Site + target.sharks,7,-1112.027,2238.855,0.000,0.182
-2,78,mean_distance ~ AIS + cost.per.trip_std + Fishing.experience_std + Site,7,-1112.261,2239.323,0.468,0.144
-3,334,mean_distance ~ AIS + cost.per.trip_std + Fishing.experience_std + Site + target.sharks,8,-1111.229,2239.493,0.638,0.132
-4,70,mean_distance ~ AIS + cost.per.trip_std + Site,6,-1113.466,2239.528,0.673,0.130
-5,454,mean_distance ~ AIS + cost.per.trip_std + Site + subsidy + target.sharks,8,-1111.265,2239.565,0.711,0.128
-6,462,mean_distance ~ AIS + cost.per.trip_std + Fishing.experience_std + Site + subsidy + target.sharks,9,-1110.198,2239.700,0.845,0.119
-7,1350,mean_distance ~ AIS + cost.per.trip_std + Site + target.sharks + vessel.length_std,8,-1111.678,2240.392,1.538,0.084
-8,206,mean_distance ~ AIS + cost.per.trip_std + Fishing.experience_std + Site + subsidy,8,-1111.724,2240.483,1.628,0.081
