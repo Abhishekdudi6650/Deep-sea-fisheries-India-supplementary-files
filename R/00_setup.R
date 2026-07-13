@@ -58,9 +58,8 @@ dir.create(supp_fig_dir, showWarnings = FALSE, recursive = TRUE)
 dir.create(diag_fig_dir, showWarnings = FALSE, recursive = TRUE)
 dir.create(table_dir, showWarnings = FALSE, recursive = TRUE)
 
-main_data_path <- file.path(data_dir, "model1_distance.csv")
-cluster_data_path <- file.path(data_dir, "cluster_assignments.csv")
-
+main_data_path <- "model1_distance.csv"
+cluster_data_path <- "cluster_assignments.csv"
 # -----------------------------
 # Shared variables
 # -----------------------------
